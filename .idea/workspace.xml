@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cdb0c18-a273-49cb-9c75-7147f33a58cc" name="Default Changelist" comment="" />
+    <list default="true" id="3cdb0c18-a273-49cb-9c75-7147f33a58cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +15,7 @@
     <pharConfigPath>$PROJECT_DIR$/laravel/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/public/svg/404.svg">
           <provider selected="true" editor-type-id="images" />
@@ -28,6 +31,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -139,21 +145,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="laravel-docker-install" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-docker-install" type="462c0819:PsiDirectoryNode" />
+              <item name="PHPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="laravel-docker-install" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-docker-install" type="462c0819:PsiDirectoryNode" />
+              <item name="PHPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPProject" type="462c0819:PsiDirectoryNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="laravel-docker-install" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-docker-install" type="462c0819:PsiDirectoryNode" />
+              <item name="PHPProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPProject" type="462c0819:PsiDirectoryNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -161,7 +168,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,16 +204,17 @@
       <workItem from="1548144764512" duration="2061000" />
       <workItem from="1548153811165" duration="599000" />
       <workItem from="1548412896315" duration="520000" />
+      <workItem from="1548413597715" duration="2866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4255000" />
+    <option name="totallyTimeSpent" value="7121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26010638" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26276594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -220,7 +227,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32901832" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
