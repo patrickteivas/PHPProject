@@ -1,5 +1,5 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
 
-$user = new \App\User();
-var_dump($user);
+$xkcd = new \App\Xkcd(1);
+var_dump($xkcd->getPicture());
