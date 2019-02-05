@@ -14,21 +14,22 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class Xkcd
 {
-    public $baseUrl = "https://xkcd.com/";
+    public $baseUrl = "https://9gag.com/gag/";
     public $html;
     /**
-     * @param $page int page number
+     * @param $hash string page number
      * Xkcd constructor.
      */
-    public function __construct($page)
+    public function __construct($hash)
     {
         $guzzle = new \GuzzleHttp\Client();
-        $this->html = $guzzle->get( $this->baseUrl . $page )->getBody()->getContents();
+        $this->html = $guzzle->get( $this->baseUrl . $hash )->getBody()->getContents();
     }
 
     public function getPicture() {
         $crawler = new Crawler($this->html);
-        $crawler = $crawler->filter('#comic img');
-        return $crawler->first()->attr('src');
+        return $this->html;
+        $crawler = $crawler->filter('.post-view picture img');
+        return $crawler->attr('src');
     }
 }
