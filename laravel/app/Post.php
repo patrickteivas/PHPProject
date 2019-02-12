@@ -1,29 +1,25 @@
 <?php
-/** File name : Post.php ...*/
+/**
+ * File name : Post.php
+ * Created by PhpStorm.
+ * User: kaspar.suursalu
+ * Date: 01.02.2019
+ * Time: 13:56
+ */
 
 namespace App;
 
-use Illuminate\
 
-class User extends Authenticatable
+use Illuminate\Database\Eloquent\Model;
+
+class Post extends Model
 {
-    use Notifiable;
-
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
-    ];
-
-    /**
-     * The attributes that should be hidden for arrays.
-     *
-     * @var array
-     */
-    protected $hidden = [
-        'password', 'remember_token',
+        'title', 'content', 'author',
     ];
 }

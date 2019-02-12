@@ -1,10 +1,9 @@
 <?php
 /**
- * File name : Xkcd.php
  * Created by PhpStorm.
- * User: kaspar.suursalu
- * Date: 05.02.2019
- * Time: 11:17
+ * User: opilane
+ * Date: 12.02.2019
+ * Time: 11:32
  */
 
 namespace App;
@@ -12,9 +11,9 @@ namespace App;
 
 use Symfony\Component\DomCrawler\Crawler;
 
-class Xkcd
+class Qwantz
 {
-    public $baseUrl = "https://xkcd.com";
+    public $baseUrl = "http://qwantz.com";
     public $html;
     /**
      * @param $page int page number
@@ -23,11 +22,8 @@ class Xkcd
     public function __construct($pageUrl = '')
     {
         $guzzle = new \GuzzleHttp\Client();
-        if($pageUrl !== ''){
-            $url = $this->baseUrl . $pageUrl;
-        } else {
-            $url = "https://xkcd.com/5/";
-        }
+        $url = $this->baseUrl . $pageUrl;
+
         $this->html = $guzzle->get( $url)->getBody()->getContents();
     }
 
@@ -44,10 +40,12 @@ class Xkcd
     public function getPrevUrl() {
         try {
             $crawler = new Crawler($this->html);
-            $crawler = $crawler->filter('.comicNav li a[rel="prev"]');
-            return $crawler->first()->attr('href');
+            $crawler = $crawler->filter('.nohover');
+            return $crawler->first()->children()->first()->attr('href');
         } catch (\InvalidArgumentException $e) {
             return false;
         }
     }
 }
+
+//getElementsByClassName("nohover")[0].children[0].getAttribute("href")
