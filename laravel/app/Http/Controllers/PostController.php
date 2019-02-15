@@ -14,8 +14,12 @@ class PostController extends Controller
      */
     public function index()
     {
-        $post = Post::all();
-        var_dump($post);
+        $post = new Post();
+        $post->title = 'Hello';
+        $post->content = 'World';
+        $post->author = 'Kaspar';
+        $post->save();
+        var_dump($post->toArray());
     }
 
     /**
@@ -25,12 +29,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        $post = new Post();
-        $post->title = 'Hello';
-        $post->content = 'World';
-        $post->author = 'Kaspar';
-        $post->save();
-        var_dump($post->toArray());
+        //
     }
 
     /**

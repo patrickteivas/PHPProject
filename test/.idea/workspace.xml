@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a002206e-46a7-4de6-bad5-ac80efa959b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Qwantz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/.idea/laravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/app/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/public/index2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/public/index2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Xkcd.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Xkcd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/run.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/run.php" afterDir="false" />
-    </list>
+    <list default="true" id="a002206e-46a7-4de6-bad5-ac80efa959b7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/bin/run.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -48,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Xkcd.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="102">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -104,33 +86,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -161,16 +123,17 @@
       <workItem from="1549622665883" duration="10000" />
       <workItem from="1549959331815" duration="4683000" />
       <workItem from="1549964363048" duration="365000" />
+      <workItem from="1550227073505" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9425000" />
+    <option name="totallyTimeSpent" value="9443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26010638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26276594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -200,6 +163,13 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Xkcd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Qwantz.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -207,17 +177,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Xkcd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/run.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
