@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Comment;
 use App\Post;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
@@ -14,12 +16,11 @@ class PostController extends Controller
      */
     public function index()
     {
-        $post = new Post();
-        $post->title = 'Hello';
-        $post->content = 'World';
-        $post->author = 'Kaspar';
-        $post->save();
-        var_dump($post->toArray());
+        $post = Post::find(2);
+
+        $comments = $post->comments;
+        var_dump($comments->toArray());
+
     }
 
     /**
@@ -29,7 +30,11 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        $post = new Post();
+        $post->title = 'Hello';
+        $post->content = 'World';
+        $post->author = 'Kaspar';
+        $post->save();
     }
 
     /**

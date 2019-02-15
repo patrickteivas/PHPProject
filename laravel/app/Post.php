@@ -10,6 +10,7 @@
 namespace App;
 
 
+use App\Http\Controllers\PostController;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
@@ -19,7 +20,17 @@ class Post extends Model
      *
      * @var array
      */
+
     protected $fillable = [
         'title', 'content', 'author',
     ];
+
+    /**
+     * Get the comments for the blog post.
+     */
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
+
 }
