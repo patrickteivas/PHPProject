@@ -11,7 +11,7 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        for($i=0; $i<7; $i++){
+        for($i=0; $i<100; $i++){
             factory(App\User::class)->create()
                 ->each(function ($user) {
                     $user->save(factory(App\Post::class)->make());

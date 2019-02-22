@@ -9,13 +9,22 @@ class PostSeeder extends Seeder
      *
      * @return void
      */
+
     public function run()
     {
-        for($i=0; $i<7; $i++){
+        for($i=0; $i<1000; $i++){
             factory(App\Post::class)->create()
                 ->each(function ($post) {
-                    $post->save(factory(App\Comment::class)->make());
-            });
+                    $n = rand(0, 10);
+                    $faker = Faker\Factory::create();
+                    $created_at = $faker->dateTimeBetween($post->created_at, 'now');
+                    for($i=0; $i<$n; $i++) {
+                        $post->save(factory(App\Comment::class)->make([
+                            'created_at' => $created_at,
+                            'updated_at' => $created_at
+                        ]));
+                    }
+                });
         }
     }
 }
