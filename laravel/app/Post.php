@@ -33,4 +33,9 @@ class Post extends Model
         return $this->hasMany(Comment::class);
     }
 
+    public function author_id()
+    {
+        return $this->belongsTo("App/User");
+    }
+
 }

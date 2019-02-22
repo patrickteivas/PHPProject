@@ -18,7 +18,12 @@ class Comment extends Model
     /**
      * Get the post that owns the comment.
      */
-    
+
+    public function post_id()
+    {
+        return $this->belongsTo("App\Post");
+    }
+
     public function author_id()
     {
         return $this->belongsTo("App\User");
